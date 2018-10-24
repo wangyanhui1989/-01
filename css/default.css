@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+.clear{
+	clear: both;
+}
+body{
+	color: #666;
+	font-family: 100% Microsoft Yahei,微软雅黑, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+/*头部导航*/
+body{font-family: "Microsoft YaHei";}
+.navbar-brand{
+	height: 66px;
+	padding: 0;
+}
+.nav{font-size: 16px;}
+.navbar-toggle{
+	margin-top: 15px;
+}
+/*.navbar-inverse{
+	background: #fff;
+}*/
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color: #333;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 1px 20px rgba(0,0,0,.2);
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+     background-color: #fff; 
+}
+.navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:focus {
+	color: #1ccda6;
+	background-color: transparent;
+	text-decoration: none;
+}
+.navbar-inverse .navbar-nav>li{
+	margin-top: 10px;
+	width: 90px;
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus {
+	color: #fff;
+	background-color: #080808
+}
+
+.navbar-inverse .navbar-nav>.disabled>a,.navbar-inverse .navbar-nav>.disabled>a:hover,.navbar-inverse .navbar-nav>.disabled>a:focus {
+	color: #444;
+	background-color: transparent
+}
+/*底部*/
+.footer_wrap{background:#00060a url(../image/footer_bg.jpg) no-repeat center;color: #fff;}
+footer{width:1200px; margin:auto; overflow:hidden;}
+footer a{-webkit-transition:0.3s; -moz-transition:0.3s; transition:0.3s;}
+footer address, footer .copy{width:580px; height:190px; position:relative;}
+footer address{float:left; width:570px; padding-left:10px; font-style:normal;}
+footer address h3{ font-size:18px; margin-top:22px;}
+footer address h1{margin-top:30px; font-size:36px; line-height:40px; font-weight:bold;}
+footer address span{ margin-right:20px;}
+footer address p{ position:absolute; bottom:10px; left:10px;}
+footer .copy{float:right; text-align:right; vertical-align:bottom;}
+footer .copy .wx-qrcode{position:absolute; top:30px; right:15px; width:120px; height:120px;}
+footer .copy p{position:absolute; bottom:20px; right:15px;margin-top: 15px;}
+
+a:hover,a:focus{text-decoration: none;}

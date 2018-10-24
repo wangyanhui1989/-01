@@ -1,0 +1,251 @@
+.platform {
+	width: 1205px;
+	margin: auto;
+	padding: 47px 0 40px;
+	overflow: hidden;
+	-webkit-animation: gdownIn 0.6s 0.4s both;
+	-moz-animation: gdownIn 0.6s 0.4s both;
+	animation: gdownIn 0.6s 0.4s both;
+}
+
+.platform span {
+	display: block;
+	float: left;
+	width: 144px;
+	height: 50px;
+	margin-right: 20px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 2px;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	-moz-transition: 0.3s;
+	transition: 0.3s;
+	transition: 0.3s;
+	transition: 0.3s;
+}
+
+.platform span {
+	background-color: #f0f0f0;
+	background-repeat: no-repeat;
+	color: #333;
+}
+
+.platform span:hover, .platform .act {
+	background-color: #1CCDA6;
+	color: #fff;
+}
+
+@-webkit-keyframes gfadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes gfadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes gfadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes gdownIn {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0,30px,0);
+	}
+}
+
+@-moz-keyframes gdownIn {
+	from {
+		opacity: 0;
+		-moz-transform: translate3d(0,30px,0);
+	}
+}
+
+@keyframes gdownIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0,30px,0);
+	}
+}
+
+#works_list li {
+	width: 375px;
+	height: 234px;
+	float: left;
+	margin: 0 20px;
+	margin-bottom: 40px;
+	-webkit-animation: gfadeIn 0.6s 0.8s both;
+	-moz-animation: gfadeIn 0.6s 0.8s both;
+	animation: gfadeIn 0.6s 0.8s both;
+}
+
+#works_list li:nth-of-type(2) {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+#works_list li:nth-of-type(3) {
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+
+#works_list li:nth-of-type(4) {
+	-webkit-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	animation-delay: 1.4s;
+}
+
+#works_list li:nth-of-type(5) {
+	-webkit-animation-delay: 1.6s;
+	-moz-animation-delay: 1.6s;
+	animation-delay: 1.6s;
+}
+
+#works_list li:nth-of-type(6) {
+	-webkit-animation-delay: 1.8s;
+	-moz-animation-delay: 1.8s;
+	animation-delay: 1.8s;
+}
+
+#works_list li:nth-of-type(7) {
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+#works_list li:nth-of-type(8) {
+	-webkit-animation-delay: 2.2s;
+	-moz-animation-delay: 2.2s;
+	animation-delay: 2.2s;
+}
+
+#works_list li:nth-of-type(9) {
+	-webkit-animation-delay: 2.4s;
+	-moz-animation-delay: 2.4s;
+	animation-delay: 2.4s;
+}
+
+#works_list li:nth-of-type(10) {
+	-webkit-animation-delay: 2.6s;
+	-moz-animation-delay: 2.6s;
+	animation-delay: 2.6s;
+}
+
+#works_list li:nth-of-type(11) {
+	-webkit-animation-delay: 2.8s;
+	-moz-animation-delay: 2.8s;
+	animation-delay: 2.8s;
+}
+
+.works_wrap {
+	width: 1205px;
+	margin: auto;
+	overflow: hidden;
+	-webkit-animation: gdownIn 1s 0.5s both;
+	-moz-animation: gdownIn 1s 0.5s both;
+	animation: gdownIn 1s 0.5s both;
+}
+
+#works_list {
+	width: 1245px;
+	margin: 0 auto 80px;
+	position: relative;
+	left: -20px;
+	overflow: hidden;
+}
+
+#works_list li {
+	width: 375px;
+	height: 234px;
+	float: left;
+	margin: 0 20px;
+	margin-bottom: 40px;
+}
+
+#works_list li a {
+	display: block;
+	height: 100%;
+	background: #fff;
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	transition: 0.5s linear;
+}
+
+#works_list li article {
+	width: 375px;
+	height: 234px;
+	position: relative;
+	overflow: hidden;
+}
+
+#works_list li article img {
+	height: 100%;
+	width: auto;
+	vertical-align: top;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+#works_list li a:hover .work-img {
+	-webkit-transform: scale(1.2);
+}
+
+#works_list li i img {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: -50px;
+	z-index: 3;
+	margin: -50px -50px;
+	transition: 0.5s linear;
+}
+
+#works_list li i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0);
+	width: 375px;
+	height: 234px;
+	transition: 0.5s linear;
+}
+
+#works_list li a:hover i {
+	background: rgba(0,0,0,0.6);
+}
+
+#works_list li a:hover i img {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 3;
+	margin: -50px -50px;
+}
